@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>d85c0649871f4c7cbef3e052dd54142d</sys_id>
-    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-    <sys_update_name>sys_security_acl_role_d85c0649871f4c7cbef3e052dd54142d</sys_update_name>
-    <sys_security_acl>2705bca772764b0b993400bb5b2d6e2b</sys_security_acl>
-    <sys_user_role name="x_1850489_weathe_0.admin">8c8044ef34284058b477174a9a052f3e</sys_user_role>
-  </sys_security_acl_role>
-</record_update>
