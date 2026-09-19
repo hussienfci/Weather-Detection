@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_next_experience_content">
+    <sys_notification_next_experience_content action="INSERT_OR_UPDATE">
+        <action_name/>
+        <action_payload/>
+        <active>true</active>
+        <is_default>false</is_default>
+        <message><![CDATA[Your temperature for 
+City: ${city} is 
+Temperature (°C): ${temperature}.
+The record is Created by: ${sys_created_by}]]></message>
+        <message_heading><![CDATA[Temperature (°C): ${temperature}.
+]]></message_heading>
+        <name>Tempreture</name>
+        <notification display_value="Create Notification for temperture">235ec87f735703506a56f85c4ab8b76e</notification>
+        <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
+        <sys_class_name>sys_notification_next_experience_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 19:51:28</sys_created_on>
+        <sys_id>31c5d83f739703506a56f85c4ab8b79c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tempreture</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_notification_next_experience_content_31c5d83f739703506a56f85c4ab8b79c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 19:51:28</sys_updated_on>
+        <use_action>false</use_action>
+    </sys_notification_next_experience_content>
+</record_update>
