@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+  <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8132572828744a6ca1f5b498de034be4</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_rest_message_fn_param_defs_8132572828744a6ca1f5b498de034be4</sys_update_name>
+    <name>key</name>
+    <order>1</order>
+    <rest_message_function function_name="getCurrentWeather" rest_message="218bcd65f87f4b00ba2f5f4fa475cb46">c201381879a94d3c94084447b88636df</rest_message_function>
+    <value>${key}</value>
+  </sys_rest_message_fn_param_defs>
+</record_update>

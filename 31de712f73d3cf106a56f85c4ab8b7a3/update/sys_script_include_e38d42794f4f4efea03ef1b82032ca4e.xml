@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e38d42794f4f4efea03ef1b82032ca4e</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_script_include_e38d42794f4f4efea03ef1b82032ca4e</sys_update_name>
+    <access>public</access>
+    <active>true</active>
+    <api_name>x_1850489_weathe_0.WeatherAjax</api_name>
+    <caller_access/>
+    <client_callable>true</client_callable>
+    <description>GlideAjax processor for WeatherAPI.com lookups</description>
+    <mobile_callable>false</mobile_callable>
+    <name>WeatherAjax</name>
+    <sandbox_callable>false</sandbox_callable>
+    <script><![CDATA[var WeatherAjax = Class.create();
+
+WeatherAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getWeather: function() {
+        var city = this.getParameter('sysparm_city');
+        if (!city) {
+            return JSON.stringify({ success: false, error: 'City parameter is required' });
+        }
+        city = city.toString().trim();
+        if (city.length < 2) {
+            return JSON.stringify({ success: false, error: 'City name must be at least 2 characters' });
+        }
+        
+        try {
+            var rm = new sn_ws.RESTMessageV2('WeatherAPI', 'getCurrentWeather');
+            rm.setStringParameterNoEscape('key', 'cda8d818671c49ac8e4144728262907');
+            rm.setStringParameterNoEscape('city', city);
+            rm.setHttpTimeout(15000);
+            
+            var response = rm.execute();
+            var httpStatus = response.getStatusCode();
+            var body = response.getBody();
+            
+            gs.info('WeatherAjax: API response status=' + httpStatus + ' for city=' + city);
+            
+            if (httpStatus == 200) {
+                var data = JSON.parse(body);
+                return JSON.stringify({
+                    success: true,
+                    temp_c: data.current.temp_c,
+                    condition: data.current.condition.text
+                });
+            } else {
+                gs.error('WeatherAjax: API error status=' + httpStatus + ' body=' + body);
+                return JSON.stringify({ success: false, error: 'API returned status ' + httpStatus });
+            }
+        } catch (ex) {
+            gs.error('WeatherAjax: Exception - ' + ex.getMessage());
+            return JSON.stringify({ success: false, error: 'Exception: ' + ex.getMessage() });
+        }
+    },
+    
+    type: 'WeatherAjax'
+});
+]]></script>
+    <sys_name>WeatherAjax</sys_name>
+  </sys_script_include>
+</record_update>

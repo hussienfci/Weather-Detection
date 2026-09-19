@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c188a54281a34678ac9f644cc1315311</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_app_module_c188a54281a34678ac9f644cc1315311</sys_update_name>
+    <active>true</active>
+    <application>65c42f5dcc434206962005ab323b6529</application>
+    <link_type>LIST</link_type>
+    <name>x_1850489_weathe_0_lookup</name>
+    <order>300</order>
+    <override_menu_roles>false</override_menu_roles>
+    <require_confirmation>false</require_confirmation>
+    <sys_domain>global</sys_domain>
+    <sys_domain_path>/</sys_domain_path>
+    <title>All Weather Lookups</title>
+    <uncancelable>false</uncancelable>
+  </sys_app_module>
+</record_update>

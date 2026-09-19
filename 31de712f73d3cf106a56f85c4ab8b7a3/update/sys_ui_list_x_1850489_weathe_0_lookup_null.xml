@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1850489_weathe_0_lookup" view="">
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>54f7c310748b4cbab744e832edc4c386</sys_id>
+      <list_id display_value="x_1850489_weathe_0_lookup" element="NULL" name="x_1850489_weathe_0_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5b742b6b9fa547358d6d12597d617b5d</list_id>
+      <element>city</element>
+      <position>0</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>b8fad230acad41bf99607432bb943ba0</sys_id>
+      <list_id display_value="x_1850489_weathe_0_lookup" element="NULL" name="x_1850489_weathe_0_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5b742b6b9fa547358d6d12597d617b5d</list_id>
+      <element>temperature</element>
+      <position>1</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>4f3af5657a424ddca7494376391f3576</sys_id>
+      <list_id display_value="x_1850489_weathe_0_lookup" element="NULL" name="x_1850489_weathe_0_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5b742b6b9fa547358d6d12597d617b5d</list_id>
+      <element>condition</element>
+      <position>2</position>
+    </sys_ui_list_element>
+    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>5b742b6b9fa547358d6d12597d617b5d</sys_id>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <view name="NULL">Default view</view>
+      <name>x_1850489_weathe_0_lookup</name>
+      <sys_domain>global</sys_domain>
+    </sys_ui_list>
+  </sys_ui_list>
+</record_update>

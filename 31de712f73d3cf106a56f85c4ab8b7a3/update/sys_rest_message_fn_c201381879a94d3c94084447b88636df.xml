@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+  <sys_rest_message_fn action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c201381879a94d3c94084447b88636df</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_rest_message_fn_c201381879a94d3c94084447b88636df</sys_update_name>
+    <authentication_type>inherit_from_parent</authentication_type>
+    <basic_auth_profile/>
+    <content/>
+    <function_name>getCurrentWeather</function_name>
+    <http_method>get</http_method>
+    <lock>false</lock>
+    <oauth2_profile/>
+    <rest_endpoint/>
+    <rest_message>218bcd65f87f4b00ba2f5f4fa475cb46</rest_message>
+    <use_mid_server/>
+  </sys_rest_message_fn>
+</record_update>

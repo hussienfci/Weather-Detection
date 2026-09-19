@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8c8044ef34284058b477174a9a052f3e</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_user_role_8c8044ef34284058b477174a9a052f3e</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description/>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_1850489_weathe_0.admin</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>admin</suffix>
+  </sys_user_role>
+</record_update>

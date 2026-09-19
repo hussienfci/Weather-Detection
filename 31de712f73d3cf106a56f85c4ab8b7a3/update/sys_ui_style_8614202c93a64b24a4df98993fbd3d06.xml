@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+  <sys_ui_style action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8614202c93a64b24a4df98993fbd3d06</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_ui_style_8614202c93a64b24a4df98993fbd3d06</sys_update_name>
+    <element>temperature</element>
+    <name>x_1850489_weathe_0_lookup</name>
+    <style>font-weight:bold;font-size:1.2em;color:#0070d2;</style>
+    <value>javascript:1==1;</value>
+  </sys_ui_style>
+</record_update>

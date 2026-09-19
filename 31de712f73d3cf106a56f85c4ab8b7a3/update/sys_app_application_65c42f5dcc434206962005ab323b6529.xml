@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>65c42f5dcc434206962005ab323b6529</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_app_application_65c42f5dcc434206962005ab323b6529</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description/>
+    <device_type>browser</device_type>
+    <hint/>
+    <name/>
+    <order>100</order>
+    <roles/>
+    <title>Weather Tracker</title>
+  </sys_app_application>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+  <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>bfc0d98c22fe4a97850aaf1a51741766</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_rest_message_fn_parameters_bfc0d98c22fe4a97850aaf1a51741766</sys_update_name>
+    <name>city</name>
+    <rest_message_function function_name="getCurrentWeather" rest_message="218bcd65f87f4b00ba2f5f4fa475cb46">c201381879a94d3c94084447b88636df</rest_message_function>
+    <type>string</type>
+  </sys_rest_message_fn_parameters>
+</record_update>
