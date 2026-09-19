@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>905ed7300b004ce0b92eddbb8d950e4e</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_app_module_905ed7300b004ce0b92eddbb8d950e4e</sys_update_name>
+    <active>true</active>
+    <application>65c42f5dcc434206962005ab323b6529</application>
+    <link_type>NEW</link_type>
+    <name>x_1850489_weathe_0_weather</name>
+    <order>200</order>
+    <override_menu_roles>false</override_menu_roles>
+    <require_confirmation>false</require_confirmation>
+    <sys_domain>global</sys_domain>
+    <sys_domain_path>/</sys_domain_path>
+    <title>Create New</title>
+    <uncancelable>false</uncancelable>
+  </sys_app_module>
+</record_update>

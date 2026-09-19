@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>637cae4cb4524abfb909ed83883e200c</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_security_acl_637cae4cb4524abfb909ed83883e200c</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_1850489_weathe_0_weather</name>
+    <operation display_value="read">read</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_1850489_weathe_0_weather</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

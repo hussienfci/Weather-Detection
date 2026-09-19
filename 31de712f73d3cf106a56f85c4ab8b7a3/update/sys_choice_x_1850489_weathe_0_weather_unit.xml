@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="unit" table="x_1850489_weathe_0_weather" version="3">
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>unit</element>
-            <name>x_1850489_weathe_0_weather</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 08:55:07</sys_created_on>
-            <sys_id>5bcd85ae662b4e1984f81f945f158438</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>unit</sys_name>
-            <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-            <sys_update_name>sys_choice_x_1850489_weathe_0_weather_unit</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 08:55:07</sys_updated_on>
-        </sys_choice_set>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="unit" table="x_1850489_weathe_0_weather" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>5bcd85ae662b4e1984f81f945f158438</sys_id>
+      <element>unit</element>
+      <sys_update_name>sys_choice_x_1850489_weathe_0_weather_unit</sys_update_name>
+      <name>x_1850489_weathe_0_weather</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <sys_package display_value="x_1850489_weathe_0" source="31de712f73d3cf106a56f85c4ab8b7a3">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+      <sys_name>unit</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>4e4e1758156c4b04bd56a24832f92455</sys_id>
+      <name>x_1850489_weathe_0_weather</name>
+      <element>unit</element>
+      <label>Celsius</label>
+      <value>C</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
     </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>e8e88f821e53494a82b6d3441dd5aff4</sys_id>
+      <name>x_1850489_weathe_0_weather</name>
+      <element>unit</element>
+      <label>Fahrenheit</label>
+      <value>F</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>7ccc01692b764da18c74a8b5a85ed09a</sys_id>
+      <name>x_1850489_weathe_0_weather</name>
+      <element>unit</element>
+      <label>Kelvin</label>
+      <value>K</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
 </record_update>

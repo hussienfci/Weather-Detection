@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_client">
+  <sys_script_client action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6ccea606e00a480da4c6d865f806dc97</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_script_client_6ccea606e00a480da4c6d865f806dc97</sys_update_name>
+    <active>true</active>
+    <applies_extended>false</applies_extended>
+    <description/>
+    <field/>
+    <global>true</global>
+    <isolate_script>false</isolate_script>
+    <messages/>
+    <name>Validate Weather Input</name>
+    <script><![CDATA[function onSubmit() {
+    var country = g_form.getValue('country');
+    var city = g_form.getValue('city');
+    var temperature = g_form.getValue('temperature');
+
+    if (!country || country.trim().length < 2) {
+        g_form.addErrorMessage('Country is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (!city || city.trim().length < 2) {
+        g_form.addErrorMessage('City is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (temperature && isNaN(parseFloat(temperature))) {
+        g_form.addErrorMessage('Temperature must be a valid number.');
+        return false;
+    }
+
+    return true;
+}
+]]></script>
+    <sys_name>Validate Weather Input</sys_name>
+    <table>x_1850489_weathe_0_weather</table>
+    <type>onSubmit</type>
+    <ui_type>10</ui_type>
+    <view/>
+  </sys_script_client>
+</record_update>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Weather Details" section_id="b83aac13b4c24782bd6055057e6e3cdd" sys_domain="global" table="x_1850489_weathe_0_weather" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>ef3dd3e706cf497c8400acf3802815c4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>country</element>
+      <position>1</position>
+      <sys_id>851624da44614ae6a5ccdf760824e404</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>2</position>
+      <sys_id>da24c69f91e142d9beee7a20a4b9644d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>city</element>
+      <position>3</position>
+      <sys_id>0715b303418f4da6b8097637d87d87a7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>4</position>
+      <sys_id>8957b5bf924c4e63ac080518a3bfb461</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>5</position>
+      <sys_id>73a4de9a21e34181b19d5cff071ee1e3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>temperature</element>
+      <position>6</position>
+      <sys_id>6fbc34204ced44a2914ef1ad6baec5e6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>7</position>
+      <sys_id>04e4070038df4bc29e7b291d94453029</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>unit</element>
+      <position>8</position>
+      <sys_id>9a534ed9f5a34acebca8b975c7579ad7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>9</position>
+      <sys_id>80d69812593d4da598c32ab290ac3051</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>weather_summary</element>
+      <position>10</position>
+      <sys_id>6e8686b5e55c40fa8e0a84bc4d6dabcb</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>last_updated</element>
+      <position>11</position>
+      <sys_id>d845d8575abb4aa6ba031fe4391861b4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Weather Details</caption>
+      <header>false</header>
+      <name>x_1850489_weathe_0_weather</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>b83aac13b4c24782bd6055057e6e3cdd</sys_id>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

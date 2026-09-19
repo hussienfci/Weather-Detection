@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1850489_weathe_0_weather" view="">
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>83185d0041e046a391d64f5cd7cf7efc</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>city</element>
+      <position>0</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>7c60b715a0ad4c3785eb999a4622eadb</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>country</element>
+      <position>1</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>0280a301d1244534a8bbbbeb383a4865</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>temperature</element>
+      <position>2</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d5470be7da424c02b04ece0171c9cb33</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>unit</element>
+      <position>3</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>c76b7a7277ee44d68db1c65ef89d312c</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>weather_summary</element>
+      <position>4</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>80b4c64c669549899b31e1734e03852c</sys_id>
+      <list_id display_value="x_1850489_weathe_0_weather" element="NULL" name="x_1850489_weathe_0_weather" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8421fd3e665644e4ac914204ab6c1662</list_id>
+      <element>last_updated</element>
+      <position>5</position>
+    </sys_ui_list_element>
+    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>8421fd3e665644e4ac914204ab6c1662</sys_id>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <view name="NULL">Default view</view>
+      <name>x_1850489_weathe_0_weather</name>
+      <sys_domain>global</sys_domain>
+    </sys_ui_list>
+  </sys_ui_list>
+</record_update>
