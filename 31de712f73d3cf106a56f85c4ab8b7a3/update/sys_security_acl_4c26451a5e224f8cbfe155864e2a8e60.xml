@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
-  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>4c26451a5e224f8cbfe155864e2a8e60</sys_id>
-    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-    <sys_update_name>sys_security_acl_4c26451a5e224f8cbfe155864e2a8e60</sys_update_name>
-    <active>true</active>
-    <admin_overrides>true</admin_overrides>
-    <advanced>false</advanced>
-    <applies_to/>
-    <condition/>
-    <decision_type>allow</decision_type>
-    <description/>
-    <name>WeatherAjax</name>
-    <operation display_value="execute">execute</operation>
-    <script/>
-    <security_attribute>239bdf0c47d23110ba46ff58936d4330</security_attribute>
-    <sys_name>WeatherAjax</sys_name>
-    <type>client_callable_script_include</type>
-  </sys_security_acl>
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing/>
+        <name>WeatherAjax</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <security_attribute display_value="UserIsAuthenticated">239bdf0c47d23110ba46ff58936d4330</security_attribute>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:22:05</sys_created_on>
+        <sys_id>4c26451a5e224f8cbfe155864e2a8e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WeatherAjax</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_security_acl_4c26451a5e224f8cbfe155864e2a8e60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:22:05</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
+    </sys_security_acl>
 </record_update>

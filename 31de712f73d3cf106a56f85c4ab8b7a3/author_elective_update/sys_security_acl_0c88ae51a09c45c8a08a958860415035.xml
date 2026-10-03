@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="DELETE" apply_defaults="true">
+    <sys_id>0c88ae51a09c45c8a08a958860415035</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_security_acl_0c88ae51a09c45c8a08a958860415035</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_1850489_weathe_0_weather</name>
+    <operation display_value="delete">delete</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_1850489_weathe_0_weather</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_security_acl_0c88ae51a09c45c8a08a958860415035</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0c88ae51a09c45c8a08a958860415035</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_security_acl_0c88ae51a09c45c8a08a958860415035</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_1850489_weathe_0_weather</name>
+    <operation display_value="delete">delete</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_1850489_weathe_0_weather</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>1124270425</payload_hash>
+        <record_name>x_1850489_weathe_0_weather</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:11</sys_created_on>
+        <sys_id>6c30ceaf73d3cf106a56f85c4ab8b73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e06f2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2c30ceafe6d3cf1018fa270b6521b93c</update_guid>
+        <update_guid_history>2c30ceafe6d3cf1018fa270b6521b93c:1124270425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>7e9360fe701c4aebb51ca3f60d77ae31</sys_id>
+        <sys_metadata>0c88ae51a09c45c8a08a958860415035</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_weathe_0_weather</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent display_value="">7e8fea1b2cac46468c72ed58253c9dbe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_security_acl_0c88ae51a09c45c8a08a958860415035</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_0c88ae51a09c45c8a08a958860415035">6c30ceaf73d3cf106a56f85c4ab8b73d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

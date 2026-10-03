@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
-  <sys_script_include action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>e38d42794f4f4efea03ef1b82032ca4e</sys_id>
-    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-    <sys_update_name>sys_script_include_e38d42794f4f4efea03ef1b82032ca4e</sys_update_name>
-    <access>public</access>
-    <active>true</active>
-    <api_name>x_1850489_weathe_0.WeatherAjax</api_name>
-    <caller_access/>
-    <client_callable>true</client_callable>
-    <description>GlideAjax processor for WeatherAPI.com lookups</description>
-    <mobile_callable>false</mobile_callable>
-    <name>WeatherAjax</name>
-    <sandbox_callable>false</sandbox_callable>
-    <script><![CDATA[var WeatherAjax = Class.create();
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1850489_weathe_0.WeatherAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>GlideAjax processor for WeatherAPI.com lookups</description>
+        <mobile_callable>false</mobile_callable>
+        <name>WeatherAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var WeatherAjax = Class.create();
 
 WeatherAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getWeather: function() {
@@ -57,6 +54,17 @@ WeatherAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     type: 'WeatherAjax'
 });
 ]]></script>
-    <sys_name>WeatherAjax</sys_name>
-  </sys_script_include>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:22:04</sys_created_on>
+        <sys_id>e38d42794f4f4efea03ef1b82032ca4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WeatherAjax</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_script_include_e38d42794f4f4efea03ef1b82032ca4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:22:04</sys_updated_on>
+    </sys_script_include>
 </record_update>

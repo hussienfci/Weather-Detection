@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_client">
+  <sys_script_client action="DELETE" apply_defaults="true">
+    <sys_id>068b9d52e4034e35a45ca76c399e9828</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_script_client_068b9d52e4034e35a45ca76c399e9828</sys_update_name>
+    <active>true</active>
+    <applies_extended>false</applies_extended>
+    <description/>
+    <field>unit</field>
+    <global>true</global>
+    <isolate_script>false</isolate_script>
+    <messages/>
+    <name>Unit Change Handler</name>
+    <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+
+    var unitLabels = {
+        'C': 'Celsius',
+        'F': 'Fahrenheit',
+        'K': 'Kelvin'
+    };
+
+    var unitLabel = unitLabels[newValue] || newValue;
+    g_form.addInfoMessage('Temperature unit changed to ' + unitLabel + '. Please ensure the temperature value matches the selected unit.');
+}
+]]></script>
+    <sys_name>Unit Change Handler</sys_name>
+    <table>x_1850489_weathe_0_weather</table>
+    <type>onChange</type>
+    <ui_type>10</ui_type>
+    <view/>
+  </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_script_client_068b9d52e4034e35a45ca76c399e9828</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_client"&gt;
+  &lt;sys_script_client action="INSERT_OR_UPDATE" apply_defaults="true"&gt;
+    &lt;sys_id&gt;068b9d52e4034e35a45ca76c399e9828&lt;/sys_id&gt;
+    &lt;sys_scope display_value="x_1850489_weathe_0"&gt;31de712f73d3cf106a56f85c4ab8b7a3&lt;/sys_scope&gt;
+    &lt;sys_update_name&gt;sys_script_client_068b9d52e4034e35a45ca76c399e9828&lt;/sys_update_name&gt;
+    &lt;active&gt;true&lt;/active&gt;
+    &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+    &lt;description/&gt;
+    &lt;field&gt;unit&lt;/field&gt;
+    &lt;global&gt;true&lt;/global&gt;
+    &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+    &lt;messages/&gt;
+    &lt;name&gt;Unit Change Handler&lt;/name&gt;
+    &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+
+    var unitLabels = {
+        'C': 'Celsius',
+        'F': 'Fahrenheit',
+        'K': 'Kelvin'
+    };
+
+    var unitLabel = unitLabels[newValue] || newValue;
+    g_form.addInfoMessage('Temperature unit changed to ' + unitLabel + '. Please ensure the temperature value matches the selected unit.');
+}
+]]&gt;&lt;/script&gt;
+    &lt;sys_name&gt;Unit Change Handler&lt;/sys_name&gt;
+    &lt;table&gt;x_1850489_weathe_0_weather&lt;/table&gt;
+    &lt;type&gt;onChange&lt;/type&gt;
+    &lt;ui_type&gt;10&lt;/ui_type&gt;
+    &lt;view/&gt;
+  &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1555897811</payload_hash>
+        <record_name>Unit Change Handler</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:11</sys_created_on>
+        <sys_id>6430ceaf73d3cf106a56f85c4ab8b733</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e06eac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2430ceaf3fd3cf10722c6e1472bab032</update_guid>
+        <update_guid_history>2430ceaf3fd3cf10722c6e1472bab032:-1555897811</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0b7f971685604a3293a1733c3c37bc84</sys_id>
+        <sys_metadata>068b9d52e4034e35a45ca76c399e9828</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unit Change Handler</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent display_value="">d20dcbb4e3bc42dd879dc194a250281a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_script_client_068b9d52e4034e35a45ca76c399e9828</sys_update_name>
+        <sys_update_version display_value="sys_script_client_068b9d52e4034e35a45ca76c399e9828">6430ceaf73d3cf106a56f85c4ab8b733</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

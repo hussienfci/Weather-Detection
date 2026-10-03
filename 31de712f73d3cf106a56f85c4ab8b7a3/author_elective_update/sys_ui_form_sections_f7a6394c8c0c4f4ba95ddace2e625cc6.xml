@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections action="DELETE" form_id="f7a6394c8c0c4f4ba95ddace2e625cc6" sys_domain="global" table="x_1850489_weathe_0_weather">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>edaf0c6e882d4afd82db0ecd150c7928</sys_id>
+      <sys_ui_form display_value="x_1850489_weathe_0_weather" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">f7a6394c8c0c4f4ba95ddace2e625cc6</sys_ui_form>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_1850489_weathe_0_weather</name>
+      <roles/>
+      <sys_id>f7a6394c8c0c4f4ba95ddace2e625cc6</sys_id>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_ui_form_sections_f7a6394c8c0c4f4ba95ddace2e625cc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="f7a6394c8c0c4f4ba95ddace2e625cc6" sys_domain="global" table="x_1850489_weathe_0_weather">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>edaf0c6e882d4afd82db0ecd150c7928</sys_id>
+      <sys_ui_form display_value="x_1850489_weathe_0_weather" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">f7a6394c8c0c4f4ba95ddace2e625cc6</sys_ui_form>
+      <sys_ui_section caption="Weather Details" display_value="Weather Details" name="x_1850489_weathe_0_weather" sys_domain="global" view="Default view">b83aac13b4c24782bd6055057e6e3cdd</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_1850489_weathe_0_weather</name>
+      <roles/>
+      <sys_id>f7a6394c8c0c4f4ba95ddace2e625cc6</sys_id>
+      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>1439764958</payload_hash>
+        <record_name>Weather</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:11</sys_created_on>
+        <sys_id>3430ceaf73d3cf106a56f85c4ab8b777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e0712e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:11</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>3430ceafdbd3cf106e88a5b132685b76</update_guid>
+        <update_guid_history>3430ceafdbd3cf106e88a5b132685b76:1439764958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>0057a2cfcb504a348001452b12240c29</sys_id>
+        <sys_metadata>f7a6394c8c0c4f4ba95ddace2e625cc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_weathe_0_weather</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent display_value="">d20dcbb4e3bc42dd879dc194a250281a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_f7a6394c8c0c4f4ba95ddace2e625cc6</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_f7a6394c8c0c4f4ba95ddace2e625cc6">3430ceaf73d3cf106a56f85c4ab8b777</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

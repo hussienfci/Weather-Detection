@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
-  <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>300f01e762094c6692ccc8083ab7e406</sys_id>
-    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-    <sys_update_name>sys_rest_message_fn_param_defs_300f01e762094c6692ccc8083ab7e406</sys_update_name>
-    <name>q</name>
-    <order>2</order>
-    <rest_message_function function_name="getCurrentWeather" rest_message="218bcd65f87f4b00ba2f5f4fa475cb46">c201381879a94d3c94084447b88636df</rest_message_function>
-    <value>${city}</value>
-  </sys_rest_message_fn_param_defs>
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>q</name>
+        <order>2</order>
+        <rest_message_function display_value="getCurrentWeather">c201381879a94d3c94084447b88636df</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:22:04</sys_created_on>
+        <sys_id>300f01e762094c6692ccc8083ab7e406</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>q</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_300f01e762094c6692ccc8083ab7e406</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:22:04</sys_updated_on>
+        <value>${city}</value>
+    </sys_rest_message_fn_param_defs>
 </record_update>

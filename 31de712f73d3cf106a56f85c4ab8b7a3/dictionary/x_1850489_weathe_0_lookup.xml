@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="31f3ec72e5574d85b0265e80d75df203" label="Weather Lookup" name="x_1850489_weathe_0_lookup" type="collection">
+        <element label="Temperature (°C)" name="temperature" read_only="true" type="decimal"/>
+        <element display="true" label="City" mandatory="true" max_length="100" name="city" type="string"/>
+        <element label="Weather Condition" max_length="200" name="condition" read_only="true" type="string"/>
+    </element>
+</database>

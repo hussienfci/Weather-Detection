@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="DELETE" apply_defaults="true" element="country" table="x_1850489_weathe_0_weather">
+    <sys_id>3ba0cc9154ae4262b3f26449335e713d</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_dictionary_x_1850489_weathe_0_weather_country</sys_update_name>
+    <active>true</active>
+    <array>false</array>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <column_label>Country</column_label>
+    <default_value/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation/>
+    <dynamic_creation_script/>
+    <dynamic_ref_qual/>
+    <element>country</element>
+    <element_reference>false</element_reference>
+    <formula/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <internal_type>string</internal_type>
+    <mandatory>true</mandatory>
+    <max_length>100</max_length>
+    <name>x_1850489_weathe_0_weather</name>
+    <primary>false</primary>
+    <read_only>false</read_only>
+    <read_only_option/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats/>
+    <reference_key/>
+    <reference_qual/>
+    <spell_check>false</spell_check>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual/>
+    <virtual_type>script</virtual_type>
+    <widget/>
+    <xml_view>false</xml_view>
+  </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_dictionary_x_1850489_weathe_0_weather_country</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="INSERT_OR_UPDATE" apply_defaults="true" element="country" table="x_1850489_weathe_0_weather">
+    <sys_id>3ba0cc9154ae4262b3f26449335e713d</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_dictionary_x_1850489_weathe_0_weather_country</sys_update_name>
+    <active>true</active>
+    <array>false</array>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <column_label>Country</column_label>
+    <default_value/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation/>
+    <dynamic_creation_script/>
+    <dynamic_ref_qual/>
+    <element>country</element>
+    <element_reference>false</element_reference>
+    <formula/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <internal_type>string</internal_type>
+    <mandatory>true</mandatory>
+    <max_length>100</max_length>
+    <name>x_1850489_weathe_0_weather</name>
+    <primary>false</primary>
+    <read_only>false</read_only>
+    <read_only_option/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats/>
+    <reference_key/>
+    <reference_qual/>
+    <spell_check>false</spell_check>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual/>
+    <virtual_type>script</virtual_type>
+    <widget/>
+    <xml_view>false</xml_view>
+  </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>22688898</payload_hash>
+        <record_name>x_1850489_weathe_0_weather.country</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:08</sys_created_on>
+        <sys_id>bb208eaf73d3cf106a56f85c4ab8b70b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e063640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>f7208eaf18d3cf10fb5f609ed31f3a0a</update_guid>
+        <update_guid_history>f7208eaf18d3cf10fb5f609ed31f3a0a:22688898</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>6dde81447c534675b8fa116ae693ca49</sys_id>
+        <sys_metadata>3ba0cc9154ae4262b3f26449335e713d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Country</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent display_value="">d20dcbb4e3bc42dd879dc194a250281a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1850489_weathe_0_weather_country</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1850489_weathe_0_weather_country">bb208eaf73d3cf106a56f85c4ab8b70b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
-  <sys_ui_style action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>7a07170dfdfb428cbc759861d06b9a28</sys_id>
-    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-    <sys_update_name>sys_ui_style_7a07170dfdfb428cbc759861d06b9a28</sys_update_name>
-    <element>condition</element>
-    <name>x_1850489_weathe_0_lookup</name>
-    <style>font-style:italic;color:#333;</style>
-    <value>javascript:1==1;</value>
-  </sys_ui_style>
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>condition</element>
+        <name>x_1850489_weathe_0_lookup</name>
+        <style>font-style:italic;&#13;
+color:'#333';&#13;
+background-color: '#6495ED' ; &#13;
+'text-align': 'center';&#13;
+font-size', '1.2em';</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+        <sys_id>7a07170dfdfb428cbc759861d06b9a28</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1850489_weathe_0_lookup</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_ui_style_7a07170dfdfb428cbc759861d06b9a28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 15:07:18</sys_updated_on>
+        <themed_style/>
+        <value>javascript:1==1;</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a07170dfdfb428cbc759861d06b9a28"/>
 </record_update>

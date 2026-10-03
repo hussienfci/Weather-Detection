@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_client">
+  <sys_script_client action="DELETE" apply_defaults="true">
+    <sys_id>6ccea606e00a480da4c6d865f806dc97</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_script_client_6ccea606e00a480da4c6d865f806dc97</sys_update_name>
+    <active>true</active>
+    <applies_extended>false</applies_extended>
+    <description/>
+    <field/>
+    <global>true</global>
+    <isolate_script>false</isolate_script>
+    <messages/>
+    <name>Validate Weather Input</name>
+    <script><![CDATA[function onSubmit() {
+    var country = g_form.getValue('country');
+    var city = g_form.getValue('city');
+    var temperature = g_form.getValue('temperature');
+
+    if (!country || country.trim().length < 2) {
+        g_form.addErrorMessage('Country is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (!city || city.trim().length < 2) {
+        g_form.addErrorMessage('City is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (temperature && isNaN(parseFloat(temperature))) {
+        g_form.addErrorMessage('Temperature must be a valid number.');
+        return false;
+    }
+
+    return true;
+}
+]]></script>
+    <sys_name>Validate Weather Input</sys_name>
+    <table>x_1850489_weathe_0_weather</table>
+    <type>onSubmit</type>
+    <ui_type>10</ui_type>
+    <view/>
+  </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_script_client_6ccea606e00a480da4c6d865f806dc97</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_client"&gt;
+  &lt;sys_script_client action="INSERT_OR_UPDATE" apply_defaults="true"&gt;
+    &lt;sys_id&gt;6ccea606e00a480da4c6d865f806dc97&lt;/sys_id&gt;
+    &lt;sys_scope display_value="x_1850489_weathe_0"&gt;31de712f73d3cf106a56f85c4ab8b7a3&lt;/sys_scope&gt;
+    &lt;sys_update_name&gt;sys_script_client_6ccea606e00a480da4c6d865f806dc97&lt;/sys_update_name&gt;
+    &lt;active&gt;true&lt;/active&gt;
+    &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+    &lt;description/&gt;
+    &lt;field/&gt;
+    &lt;global&gt;true&lt;/global&gt;
+    &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+    &lt;messages/&gt;
+    &lt;name&gt;Validate Weather Input&lt;/name&gt;
+    &lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var country = g_form.getValue('country');
+    var city = g_form.getValue('city');
+    var temperature = g_form.getValue('temperature');
+
+    if (!country || country.trim().length &lt; 2) {
+        g_form.addErrorMessage('Country is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (!city || city.trim().length &lt; 2) {
+        g_form.addErrorMessage('City is required and must be at least 2 characters.');
+        return false;
+    }
+
+    if (temperature &amp;&amp; isNaN(parseFloat(temperature))) {
+        g_form.addErrorMessage('Temperature must be a valid number.');
+        return false;
+    }
+
+    return true;
+}
+]]&gt;&lt;/script&gt;
+    &lt;sys_name&gt;Validate Weather Input&lt;/sys_name&gt;
+    &lt;table&gt;x_1850489_weathe_0_weather&lt;/table&gt;
+    &lt;type&gt;onSubmit&lt;/type&gt;
+    &lt;ui_type&gt;10&lt;/ui_type&gt;
+    &lt;view/&gt;
+  &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1108172814</payload_hash>
+        <record_name>Validate Weather Input</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:11</sys_created_on>
+        <sys_id>ac30ceaf73d3cf106a56f85c4ab8b736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e06ed50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6c30ceafd7d3cf10f48ef71dda770d35</update_guid>
+        <update_guid_history>6c30ceafd7d3cf10f48ef71dda770d35:-1108172814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1881bdae1d6c4bf8bbb611cc26ee7d04</sys_id>
+        <sys_metadata>6ccea606e00a480da4c6d865f806dc97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Weather Input</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent display_value="">d20dcbb4e3bc42dd879dc194a250281a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_script_client_6ccea606e00a480da4c6d865f806dc97</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6ccea606e00a480da4c6d865f806dc97">ac30ceaf73d3cf106a56f85c4ab8b736</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

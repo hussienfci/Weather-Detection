@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="DELETE" apply_defaults="true">
+    <sys_id>905ed7300b004ce0b92eddbb8d950e4e</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_app_module_905ed7300b004ce0b92eddbb8d950e4e</sys_update_name>
+    <active>true</active>
+    <application>65c42f5dcc434206962005ab323b6529</application>
+    <link_type>NEW</link_type>
+    <name>x_1850489_weathe_0_weather</name>
+    <order>200</order>
+    <title>Create New</title>
+  </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_app_module_905ed7300b004ce0b92eddbb8d950e4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>905ed7300b004ce0b92eddbb8d950e4e</sys_id>
+    <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+    <sys_update_name>sys_app_module_905ed7300b004ce0b92eddbb8d950e4e</sys_update_name>
+    <active>true</active>
+    <application>65c42f5dcc434206962005ab323b6529</application>
+    <link_type>NEW</link_type>
+    <name>x_1850489_weathe_0_weather</name>
+    <order>200</order>
+    <title>Create New</title>
+  </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1457859788</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 08:55:07</sys_created_on>
+        <sys_id>eb204eaf73d3cf106a56f85c4ab8b7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b8e05f870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 08:55:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ab204eafadd3cf10902c0cdfd5c509b1</update_guid>
+        <update_guid_history>ab204eafadd3cf10902c0cdfd5c509b1:1457859788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">42b46e6b731bcf106a56f85c4ab8b73c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 11:34:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>ac7c810171164b79910e8e3018d3b8c1</sys_id>
+        <sys_metadata>905ed7300b004ce0b92eddbb8d950e4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_app_module_905ed7300b004ce0b92eddbb8d950e4e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_905ed7300b004ce0b92eddbb8d950e4e">eb204eaf73d3cf106a56f85c4ab8b7b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 11:34:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

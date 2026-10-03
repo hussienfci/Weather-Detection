@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="DELETE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>The Data tempreture content</name>
+        <notification display_value="Create Notification for temperture">235ec87f735703506a56f85c4ab8b76e</notification>
+        <route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 19:28:20</sys_created_on>
+        <sys_id>36c058b3739703506a56f85c4ab8b7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>The Data tempreture content</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_36c058b3739703506a56f85c4ab8b7f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 19:28:20</sys_updated_on>
+    </sys_notification_workspace_content>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</application>
+        <file_path/>
+        <instance_id>bfd39315fb068f580c92f633beefdcec</instance_id>
+        <instance_name>dev433517</instance_name>
+        <name>sys_notification_workspace_content_36c058b3739703506a56f85c4ab8b7f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content"><sys_notification_workspace_content action="INSERT_OR_UPDATE"><active>true</active><is_default>false</is_default><name>The Data tempreture content</name><notification display_value="Create Notification for temperture">235ec87f735703506a56f85c4ab8b76e</notification><route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route><sys_class_name>sys_notification_workspace_content</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-19 19:28:20</sys_created_on><sys_id>36c058b3739703506a56f85c4ab8b7f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>The Data tempreture content</sys_name><sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package><sys_policy/><sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope><sys_update_name>sys_notification_workspace_content_36c058b3739703506a56f85c4ab8b7f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-19 19:28:20</sys_updated_on></sys_notification_workspace_content></record_update>]]></payload>
+        <payload_hash>823141678</payload_hash>
+        <record_name>The Data tempreture content</record_name>
+        <reverted_from/>
+        <source>472082af73d3cf106a56f85c4ab8b731</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 19:28:20</sys_created_on>
+        <sys_id>1f1114f3739703506a56f85c4ab8b73a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0bb2419830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 19:28:20</sys_updated_on>
+        <type>Notification Workspace Content</type>
+        <update_guid>db1114f37c9703504559aa471d3a8739</update_guid>
+        <update_guid_history>db1114f37c9703504559aa471d3a8739:823141678</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 19:48:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_notification_workspace_content">sys_notification_workspace_content</sys_db_object>
+        <sys_id>333a1243fe404010a03227d9ae208c24</sys_id>
+        <sys_metadata>36c058b3739703506a56f85c4ab8b7f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>The Data tempreture content</sys_name>
+        <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+        <sys_scope_delete display_value="">25456283c125426c89e3715c4706b390</sys_scope_delete>
+        <sys_update_name>sys_notification_workspace_content_36c058b3739703506a56f85c4ab8b7f0</sys_update_name>
+        <sys_update_version display_value="sys_notification_workspace_content_36c058b3739703506a56f85c4ab8b7f0">1f1114f3739703506a56f85c4ab8b73a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 19:48:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

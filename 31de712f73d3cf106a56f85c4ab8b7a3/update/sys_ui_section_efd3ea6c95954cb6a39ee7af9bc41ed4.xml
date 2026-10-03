@@ -1,71 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="Weather Lookup" section_id="efd3ea6c95954cb6a39ee7af9bc41ed4" sys_domain="global" table="x_1850489_weathe_0_lookup" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>city</element>
-      <position>0</position>
-      <sys_id>8951721279c042c188de93042b9ce08c</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.begin_split</element>
-      <position>1</position>
-      <sys_id>158aed955a4e470691fc9874020f6488</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>temperature</element>
-      <position>2</position>
-      <sys_id>928af7a721d74782b2f3fdcf9e9f9feb</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.split</element>
-      <position>3</position>
-      <sys_id>ba8eae9a5ce144759b5e188d59b4e0d2</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>condition</element>
-      <position>4</position>
-      <sys_id>f1cbd205038846f1adfb5eed25eff8d3</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.end_split</element>
-      <position>5</position>
-      <sys_id>7b1be36706274b0a95c75899da871a9a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <caption>Weather Lookup</caption>
-      <header>false</header>
-      <name>x_1850489_weathe_0_lookup</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>efd3ea6c95954cb6a39ee7af9bc41ed4</sys_id>
-      <sys_scope display_value="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="Weather Lookup" section_id="efd3ea6c95954cb6a39ee7af9bc41ed4" sys_domain="global" table="x_1850489_weathe_0_lookup" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>8951721279c042c188de93042b9ce08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>158aed955a4e470691fc9874020f6488</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>temperature</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>928af7a721d74782b2f3fdcf9e9f9feb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>ba8eae9a5ce144759b5e188d59b4e0d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>condition</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>f1cbd205038846f1adfb5eed25eff8d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
+            <sys_id>7b1be36706274b0a95c75899da871a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Weather Lookup</caption>
+            <header>false</header>
+            <name>x_1850489_weathe_0_lookup</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 11:22:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efd3ea6c95954cb6a39ee7af9bc41ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1850489_weathe_0_lookup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Weather Tracker" source="x_1850489_weathe_0">31de712f73d3cf106a56f85c4ab8b7a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Weather Tracker">31de712f73d3cf106a56f85c4ab8b7a3</sys_scope>
+            <sys_update_name>sys_ui_section_efd3ea6c95954cb6a39ee7af9bc41ed4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 11:22:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>
