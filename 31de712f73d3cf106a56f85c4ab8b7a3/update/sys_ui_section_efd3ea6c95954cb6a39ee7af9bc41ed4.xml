@@ -4,13 +4,13 @@
             <element>city</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>8951721279c042c188de93042b9ce08c</sys_id>
+            <sys_created_on>2026-10-03 09:55:25</sys_created_on>
+            <sys_id>d7349acc737783d06a56f85c4ab8b750</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_updated_on>2026-10-03 09:55:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>158aed955a4e470691fc9874020f6488</sys_id>
+            <sys_created_on>2026-10-03 09:55:25</sys_created_on>
+            <sys_id>eb349acc737783d06a56f85c4ab8b751</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_updated_on>2026-10-03 09:55:25</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>temperature</element>
+            <element>condition</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>928af7a721d74782b2f3fdcf9e9f9feb</sys_id>
+            <sys_created_on>2026-10-03 09:55:25</sys_created_on>
+            <sys_id>a7349acc737783d06a56f85c4ab8b752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_updated_on>2026-10-03 09:55:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,43 +46,29 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>ba8eae9a5ce144759b5e188d59b4e0d2</sys_id>
+            <sys_created_on>2026-10-03 09:55:25</sys_created_on>
+            <sys_id>63349acc737783d06a56f85c4ab8b753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_updated_on>2026-10-03 09:55:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>condition</element>
+            <element>temperature</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>f1cbd205038846f1adfb5eed25eff8d3</sys_id>
+            <sys_created_on>2026-10-03 09:55:25</sys_created_on>
+            <sys_id>2f349acc737783d06a56f85c4ab8b753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
+            <sys_updated_on>2026-10-03 09:55:25</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-19 13:05:03</sys_created_on>
-            <sys_id>7b1be36706274b0a95c75899da871a9a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Weather Lookup" display_value="Weather Lookup" name="x_1850489_weathe_0_lookup" sys_domain="global" view="Default view">efd3ea6c95954cb6a39ee7af9bc41ed4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-19 13:05:03</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Weather Lookup</caption>
